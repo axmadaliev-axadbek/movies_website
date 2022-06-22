@@ -1,0 +1,19 @@
+.select{
+    display: inline-block;
+    margin: 30px 0;
+    padding: 0 10px;
+    width: 400px;
+    height: 60px;
+    border: 0;
+    outline: none;
+    border-radius: 15px;
+    background: linear-gradient(180deg,rgba(73, 180, 207, 1) 0%, rgba(0, 149, 186, 1));
+    box-shadow: 5px 5px 25px rgba(0, 177, 227, 0.5);
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+}
+
+option{
+    color: black;
+}

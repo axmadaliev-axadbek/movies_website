@@ -1,0 +1,25 @@
+.pagination__block{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination__list{
+    display: flex;
+}
+.pagination__link{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    background: inherit;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.363);
+    text-decoration: none;
+    cursor: pointer;
+    &:active{
+        background-color: #49b4cf;
+    }
+    transition: all 0.3s;
+    &:hover{
+        border: 1px solid white;
+    }
+}
